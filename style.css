@@ -1,0 +1,1412 @@
+@charset "UTF-8";
+
+	html {
+		width: 100%;
+	}
+	body {
+		background-color: #282526;	
+		padding:0px;
+		margin:0px;
+	}
+		body > .container-fluid {
+		background-color: hsla(69,7%,80%,1.00);
+		margin:0px;
+		padding:0px;
+		
+	}
+#menu1 {			
+		background-color: #282526;
+	}
+.navbar-fixed-top
+	{
+	
+		border:0px;
+	
+	
+		
+	}
+	
+	
+
+
+
+
+	.escondeTotal
+	{
+	display:none; 	
+	}
+	
+	
+	
+	.navbar-header 
+		{
+	border:none;
+	background-color: hsla(340,4%,15%,1.00);
+	padding-left:2em;
+	padding-right:2em;
+	padding-bottom:1em;
+	padding-top:1em;
+		
+		}
+	
+	.navbar-brand
+	{
+		padding:0em;
+		width:0px;
+		height:0px;
+	}
+	
+	icon-bar{
+		background:url(images/iconos_cross.png);
+		
+	}
+	
+	.ImgToggle{
+	display: block;
+	max-width: 40px;
+	opacity: 0;	
+	background-color: transparent;
+	}
+	
+	
+	.navbar-toggle{
+	border-radius: 0px;
+	border-color: hsla(69,7%,80%,1);
+	background-color: hsla(53,46%,64%,1.00);
+	border-width: 1px;
+	padding: 2px;
+	margin: 0px;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-clip: content-box;
+	background-image: url(images/iconos_cross.png);
+	background-position: center center;
+	
+	
+	}
+	
+	.navbar-toggle.collapsed{
+			
+	border-color:hsla(53,46%,64%,1.00);
+	background:transparent;
+	background-image: url(images/iconos_pagina_cantina_white_t.png);
+	opacity:.5;
+	background-size: 100% auto;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	background-position: center center; 
+			
+
+	}
+	
+	.navbar-toggle:hover {
+		
+	}
+	.navbar-toggle:  focus {
+		
+	}
+	
+	#BtResen {
+	position: relative;
+	z-index: 1;
+	display: block;
+	margin-top: -30px;
+	top: 70%;
+	left: 10%;
+	visibility: visible;
+	float: left;
+	with: 90%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 200px auto;
+	}
+	
+	.Img-kerst:hover
+	{
+		
+	
+	background-image: url(images/KerstMenu_Buttom_hover.png);
+	background-repeat: no-repeat;
+	background-position:center;
+	background-size: 200px auto;
+	cursor:pointer;
+	}
+	
+	.Img-kerst
+	{
+	width:200px;
+	height:auto;	
+		
+	}
+	
+	
+	#img_grap{
+	float: left;
+	/* [disabled]margin-top: 2px; */
+	margin-right: 10px;
+	/* [disabled]margin-left: 2px; */
+	/* [disabled]margin-bottom: 2px; */
+	width:60px;
+	height:auto;
+	
+	}
+	
+	#Lic-Cont
+	{
+	display: block;
+	position: absolute;
+	bottom: 15%;
+	right: 1%;
+	background-color: hsla(340,4%,15%,1.00);
+	padding: 10px;
+	letter-spacing: 0.1em;
+
+	}
+	
+	#lic-textcont
+	{
+	float: left;
+	border-color: hsla(358,29%,84%,1.00);
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	}
+	.txt-lic
+	{
+	font-size: .7em;
+	color: hsla(73,9%,80%,.70);	
+	}
+	
+	#Templos_logos
+	{
+	display:block;
+	margin-left:5px;
+	
+	}
+	#Templos_logos img
+	{
+	margin-right:.2em;
+	opacity:.6;}
+	
+	
+	
+	.reserva
+	{
+	display:block;
+	float: left;
+	position: fixed;
+	bottom:50%;
+	right:-2em;
+	-ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+	}
+	
+	.btn
+	{
+	background-color: #7D1816;
+	border-radius: 0px;
+	color: hsla(0,27%,98%,1.00);
+	-webkit-box-shadow: 1px 1px 2px 2px hsla(0,1%,17%,.30);
+	box-shadow: 1px 1px 2px 2px hsla(0,1%,17%,.30);
+	padding:4px;
+	}
+	
+	.btn:hover
+	{
+	background-color: hsla(53,46%,64%,1.00);
+	}
+	.btn p:hover 
+	{
+	color:hsla(340,4%,15%,1.00);
+	}
+	
+	.btn p
+	{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	color:hsla(0,8%,77%,1.00);
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	padding:0px;
+	margin:0px;
+	
+	}
+	
+	.btn1
+	{
+	background-color: hsla(53,46%,64%,1.00);
+	border-radius: 0px;
+	color: hsla(0,27%,98%,1.00);
+	padding: 4px;
+	
+	}
+	
+	.btn1:hover
+	{
+	background-color: #7D1816;
+	}
+	.btn1 p:hover 
+	{
+	color:hsla(0,8%,77%,1.00);
+	}
+	
+	.btn1 p
+	{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	color: hsla(340,4%,15%,1.00);
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+	padding:0px;
+	margin:0px;
+	
+	}
+	
+	
+	.close
+	{
+	display:block;
+	float: left;
+	position: fixed;
+	bottom:50%;
+	right:.5em;
+	opacity:1.0;
+	z-index:15;
+	
+	}
+	#BtClose:hover
+	{
+	background-color: hsla(53,46%,64%,1.00);
+	opacity:1.0;
+	}
+	
+	.ReviewsBox
+	{
+	display: block;
+	position: relative;
+	right: 0px;
+	top: -300px;
+	float: right;
+	clear: both;
+	width: 50%;
+	height: Aauto;
+	background-color: hsla(69,7%,80%,.90);
+	z-index: 2;
+	padding: 20px;
+	padding-right:35px;
+	margin: 0px;
+	border-right: 0px;
+	border-bottom: 2px;
+	border-top: 2px ;
+	border-left: 2px ;
+	border-style:dotted;
+	border-color:hsla(340,6%,10%,.80);
+	}
+	
+	
+	.notas
+	{
+		
+		border-top-width: 1px;
+	border-color:hsla(340,4%,15%,1.00);
+	margin: 1px;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		color:  hsla(340,4%,15%,1.00);
+		text-transform: uppercase;
+		font-size: 0.9em;	
+	}
+	
+	.notas p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		color:  hsla(340,4%,15%,1.00);
+		text-transform: uppercase;
+		font-size: 0.9em;
+		text-align:center;
+		
+		}
+	
+	
+	.txt_rev{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	color: hsla(340,4%,15%,1.00);
+	font-size: 1.4 em;
+	text-align: center;
+	
+	}
+	
+	item.ReviewsBox p 
+	{
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	color: hsla(340,4%,15%,1.00);
+	font-size: 1.4 em;
+		}
+	
+	
+	.ReviewsBox a{
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		color: hsla(73,9%,80%,1.00);
+		text-transform: uppercase;
+		font-size: 0.9em;
+		opacity:0.3;
+		filter:aplpha(opacity=30);
+		}
+		
+		.ReviewsBox a:hover {
+				
+		font-size: 0.9em;
+		opacity:0.9;
+		filter:aplpha(opacity=90);
+		
+		}
+		
+	
+	
+	
+	#ReservationBox
+	{
+	min-width: 100%;
+	min-height: 100%;
+	display: none;
+	color: blue;
+	padding:2em;
+	position:fixed;
+	right:0px;
+	top:0px;
+	z-index:15;
+	
+
+			
+	}
+	
+	.reservaCaja
+	{
+			background-color:hsla(340,4%,15%,.95);
+	}
+	
+	PlugReservationBox
+	{
+	display: block;
+	margin:10em;
+	align-items:center;
+	
+
+	
+		
+	}
+	
+	#QuandoBox
+	{
+	position: fixed;
+	margin-left: -150px;
+	margin-top: -180px;
+	top: 50%;
+	left: 50%;
+	background-color: hsla(0,8%,85%,1.00);		
+	}
+	
+
+	#bod_nergo_stroke {
+	border: 1.3em solid #282526;	
+	}
+
+ 	p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	font-size: 1.2em;
+	color: hsla(300,1%,14%,1.00);
+	padding-left: 1em;
+	padding-right: 1em;
+	}
+		h2 {
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		font-size: 1.8em;
+		color: hsla(0,0%,3%,1.00);
+		text-transform: uppercase;
+		letter-spacing: 0.3em;
+	}
+			
+	.NotaBandera  {
+	padding-top : 1em;
+	padding-bottom: .3em;
+	
+	text-align: left;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	letter-spacing: 0.1em;
+				}
+	.entrada 
+	{
+		text-transform:uppercase;
+		font-size: 0.9em;
+		letter-spacing: 0.1em;
+	}
+		a:link, a:visited {
+		cursor: auto;
+		color: hsla(0,0%,0%,1.00);
+	}
+	
+		a:hover{
+		text-decoration: none;
+		color: #7D1816;
+		text-shadow: 1px 2px 3px hsla(0,0%,0%,0.35);
+	}
+	
+		.Download {
+		padding-top: 3%;
+		padding-left:1em;
+		text-align: right;
+		font-size: 1em;
+		text-transform: uppercase;
+		letter-spacing: 0.2em;
+		font-weight: 600;
+	
+	}
+	
+		#menu1 a {
+		color: hsla(53,46%,64%,1.00);
+		}
+		#menu1 a:hover {
+		color: hsla(0,36%,96%,1.00);		
+		}
+	
+	.navbar-collapse{
+		max-height:none;
+		border:none;
+		margin:none;
+		padding:none;
+		
+	}
+	
+	
+	
+		#abajo_footer{
+		
+		margin: 0px;
+		padding: 0px;
+		background-color: hsla(340,4%,15%,1.00);	
+		border: none;
+		
+		}
+		
+        .derecha_footer img {
+		float: right;
+		margin-top: 0em;
+		margin-bottom: .3em;
+		margin-left: .5em;
+		margin-right: 0em;
+		bottom:0px;}
+	
+		.derecha_footer
+		{
+		float: right;
+		right: 0px;
+		margin:0px;
+		padding-top: 1em;
+		padding-bottom: .3em;
+		padding-left: 1em;
+		padding-right: 0em;
+		clear: right;
+		width: 15%;}
+		
+		.footer_central 
+		{
+		float: right;
+		right: 0px;
+		padding-top: .3em;
+		padding-bottom: .3em;
+		padding-left: 0em;
+		padding-right: 0em;
+		clear: left;
+		width: 100%;
+	
+		
+		}	
+		
+		.izquierda_footer
+		{
+		float: left;
+		left: 0px;
+		margin: 0px;
+		padding-right:1em;
+		padding-left:0em;
+		width: 85%;
+		clear:left;
+		}
+		
+		.izquierda_footer img {
+		float: left;
+			
+		}		
+		
+		.derecha_footer img {
+		margin: 0px .0em 0px 1em;	
+		}
+		.Footer p {
+				font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		color: hsla(73,9%,80%,1.00);
+		
+		text-transform: uppercase;
+		
+		}
+		
+		
+		.Botonera_B a{
+				font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		color: hsla(73,9%,80%,1.00);
+		text-transform: uppercase;
+		font-size: 0.9em;
+		opacity:0.3;
+		filter:aplpha(opacity=30);
+		
+		}
+		.Botonera_B a:hover {
+				
+		font-size: 0.9em;
+		opacity:0.9;
+		filter:aplpha(opacity=90);
+		
+		}
+		
+		.Botonera_B{
+		right: 0px;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		text-align: left;
+		
+		}
+		.Botonera_A{
+		right: 0px;
+		width: 100%;
+		padding: 0px;
+		margin: 0px;
+		text-align: right;
+		
+		}
+		
+		.izquierda_footer p
+		{
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	color: hsla(73,9%,80%,.70);
+	text-transform: uppercase;
+	font-size: 0.8em;
+	letter-spacing: .15em;		
+		
+			
+		}
+		
+		.Footer img {
+		opacity:0.3;
+		filter:alpha(opacity=30);	
+}
+	
+		.Footer img:hover {
+		opacity:0.9;
+		filter:aplpha(opacity=90);
+	}
+	
+		.head_pusher {
+		margin-top: 3em;
+		margin-bottom: 0em;
+		margin-left: 0em;
+}
+		
+		
+		
+		
+		
+
+	.carousel {
+		background-color: #282526;
+	}
+	.carousel .carousel-inner .item {
+		transition-property: opacity;
+	}
+	
+	.carousel .carousel-inner{
+		overflow:visible;
+	}
+	
+	.item, 
+	.active.left,
+	.active.right {
+		opacity: 0;
+	}
+	
+	.active,
+	.next.left,
+	.prev.right {
+		opacity: 1;
+	}
+	
+	.next,
+	.prev,
+	.active.left,
+	.active.right {
+		left: 0;
+		transform: translate3d(0, 0, 0);
+	}
+	h2 span { 
+	  margin-top: -5em;        /* Size of fixed header */
+	  padding-bottom: 5em; 
+	  display: block;
+	}
+
+.falso_type{
+color: hsla(73,9%,80%,1.00);
+}
+
+
+
+
+@media only screen and (max-width: 767px) {
+	
+	.navbar.navbar-default.navbar-fixed-top .container-fluid #topFixedNavbar1 {
+		background-color: hsla(340,4%,15%,.90);
+		border: 0px;
+		text-align: center;
+		font-size: .8em;
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		font-color: #D9D58A;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		font-weight: 500;
+		padding:0px;
+		margin:0px;
+		
+		
+	}
+	#bod_nergo_stroke {
+		border: 1em solid #282526;	
+	}
+	.reserva 
+	{
+		bottom:50%;
+		margin-bottom:-50px;
+		right:-2.9em;
+		
+		
+	}
+	
+	.navbar-nav > li > a
+	{
+	line-height: 1.1em;	
+	}
+	
+	.close
+	{
+	
+	bottom:50%;
+	margin-bottom:-50px;
+	right:0;
+	
+	}
+	.close p 
+	{
+	font-size:.9em;
+	font-weight:600;
+	
+	}
+	.container-fluid > .navbar-header
+	{
+		padding:.5em 1em 1em 1em;
+	}
+	
+	p {
+		font-size:1em;
+		line-height: 1.3em;
+	}
+	
+	h2
+	{
+		font-size:1.2em;
+		line-height: 1.2em;
+	}
+	
+	#MenuMovil {
+				display:inline;		
+	}
+	
+	#MenuDesktop {
+		display:none;		
+	}	
+	
+	
+	#topFixedNavbar1.collapse.in.navbar-collapse
+	{
+		align-content:center;
+		max-height:none;
+		background-color: hsla(340,4%,15%,.70);
+	}
+	
+	li{
+		color: hsla(53,46%,64%,1.00);
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	}
+	
+	
+	/*aqui van las  ID por zonas */
+	
+	
+	
+	#Nostro {
+	}
+	
+	#Eat {
+	}
+	#Experience{
+	}
+	
+	.Location {
+	}
+	.Menu {
+	}
+	.Wine {
+	}
+	.Ingredents {
+	}
+	
+		
+	
+	.Caja_typo
+	{
+		padding:3em 2em 2em 2em;
+	}
+	
+	
+	
+	
+	.Footer {
+		background-color: hsla(340,4%,15%,1.00);
+		
+	}
+	.navbar-fixed-bottom
+	{
+		border: 0px;
+		margin-top: 0px;
+		margin-right: 0px;
+		margin-bottom: 0px;
+		margin-left: 0px;
+		padding-top: 0px;
+		padding-right: 0px;
+		padding-bottom: 0px;
+		padding-left: 0px;	
+	}
+	
+	
+		
+	
+	.izquierda_footer p 
+	{
+		font-size:.6em;
+		font-weight:500;
+		
+	}
+		.derecha_footer
+		{
+		float: right;
+		padding-top: .5em;
+		padding-bottom: .3em;
+		padding-left: .5em;
+		padding-right: .5em;
+		width: 30%;
+	
+		
+		}	
+		
+		.izquierda_footer
+		{
+		position:absolute;
+		
+		bottom:0px;
+		margin: 0px;
+		padding-top:0;
+		padding-bottom:.3em;
+		padding-right:.5em;
+		padding-left:1em;
+		width: 66%;
+		}
+		
+		.izquierda_footer img 
+		{
+		
+		margin:0px;	
+			
+		}
+		.derecha_footer img 
+		{
+		
+		margin:3px;	
+		height:15px;
+		width:auto;
+			
+		}
+		
+		
+		.nav.navbar-nav.navbar-right.esconde {
+				display:inline;		
+	}
+		
+		.expandible {
+		max-height: 100%;		
+			
+	}
+	
+	.EstadoDos
+	{
+	display:none;	
+	}
+	.EstadoUno
+	{
+	display:block;	
+	}
+	.EstadoTres
+	{
+	display:none;		
+	}
+	
+	#logo_top
+	{
+		height: 50px;	
+	}
+	#logo_20
+	{
+		height: 50px;
+		width:50px;
+		position:absolute;
+		left:5.5em;  	
+	}
+	
+	#img_grap{
+	float: left;
+	/* [disabled]margin-top: 2px; */
+	margin-right: .2em;
+	/* [disabled]margin-left: 2px; */
+	/* [disabled]margin-bottom: 2px; */
+	width:40px;
+	height:auto;
+	
+	}
+	
+	#Lic-Cont
+	{
+	display: block;
+	position: absolute;
+	bottom: 7%;
+	right: 0%;
+	background-color: hsla(340,4%,15%,1.00);
+	padding-top: 0.5em;
+	padding-right: 1em;
+	padding-left: 1em;
+	padding-bottom: 0.5em;
+	letter-spacing: 0.1em;
+	width: 100%;
+	margin-left: 20em;
+	}
+
+	
+	#lic-textcont
+	{
+	float: left;
+	border-color: hsla(358,29%,84%,1.00);
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	}
+	.txt-lic
+	{
+	font-size: .7em;
+	color: hsla(73,9%,80%,.70);	
+	}
+	
+	#Templos_logos
+	{
+	display:none;
+	margin-left:5px;
+	
+	}
+	#Templos_logos img
+	{
+	margin-right:.2em;
+	opacity:.6;}
+	
+	
+	
+	
+	
+	
+
+}
+@media only screen and (min-width: 768px )
+
+{
+
+		.col- {
+		width:100%;	
+		}
+ 	
+		p {
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		font-size: 1.15em;
+		color: hsla(300,1%,14%,1.00);
+		padding-left: 0em;
+		padding-right:0em;
+		}
+
+		h2 {
+		font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		font-size: 1.5em;
+		color: hsla(0,0%,3%,1.00);
+		text-transform: uppercase;
+		letter-spacing: 0.4em;
+		padding-bottom:1em;
+		}
+
+
+#MenuMovil {
+				display:none;		
+	}
+	
+#MenuDesktop {
+		display:inline;		
+	}
+		
+
+	.navbar.navbar-default.navbar-fixed-top .container-fluid #topFixedNavbar1 {
+		background-color: hsla(340,4%,15%,1);
+		text-align: center;
+		font-size: 1 em;
+		font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+		font-color: #D9D58A;
+		text-transform: uppercase;
+		letter-spacing: .2em;
+		line-height: 1em;
+		font-weight: 500;
+		padding-top: 1.5em;
+		padding-bottom:1.5em;
+		padding-right:0em;
+		
+	}
+
+
+	
+.row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row.no-gutters > [class^="col-"],
+.row.no-gutters > [class*=" col-"] {
+  padding-right: 3em;
+  padding-left: 3em;
+
+}
+.Download {
+	padding-top: 3%;
+	padding-left:1em;
+	text-align: right;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 600;
+
+}
+	
+		
+	.navbar-header 
+		{
+		border:none;
+			
+		}
+	
+	.Caja_Pleca
+	{
+	
+	border-left: thin dotted #282526 ;
+	border-right: thin dotted #282526;
+	padding:2em 1em 3em 1em;
+	
+	}
+	
+	
+	.Caja_typo{
+	padding-top:3em;
+	padding-bottom:2em;	
+	}
+	
+		
+	
+	.Caja_typo:nth-child(even) 
+{
+    
+ 
+ 
+border-bottom: thin dotted #282526;
+	border-top: thin dotted #282526;
+
+}
+
+	
+	
+	#Nostro {
+		padding: 5% 3% 5% 3% ;
+		
+			
+	}
+	#Eat {
+		padding: 5% 3% 5% 3% ;
+		
+	}
+	
+	#Experience {
+		padding: 5% 3% 5% 3% ;
+		
+	}
+	.Caja_typo_pleca {
+		
+	
+	}
+	
+	.Pleca{
+		height: 20em;
+		border-style: none none none dashed;
+		border-left-width: thin;
+		
+	}	
+	
+/*hiders: EstadoUno y dos es esconder o mostrar dependiendo  del caso. none es esconder y block es mostrar  */
+		
+		.EstadoUno 
+		{
+		display:none;
+			
+		}
+		
+		.EstadoDos 
+		
+		{
+		display:block;
+		
+		}
+		
+		.EstadoTres
+	{
+	display:none;		
+	}
+	#logo_top
+	{
+		height: 60px;	
+	}
+	
+	#logo_20
+	{
+		height: 60px;
+		width:60px;
+		position:absolute;
+		left:7em;  	
+	}
+	
+	.close
+	{
+		right:.6em;
+		
+	}
+	.reserva
+	{
+		right:-2.7em;
+		
+	}
+	
+	
+	.izquierda_footer
+	{
+	
+	padding-top:0em;
+	
+		
+	}
+	
+	.derecha_footer p 
+	{
+	font-size: .7em;
+	font-weight: 400;
+	letter-spacing: 0.2em;		
+	}
+	
+	
+	
+	
+	#img_grap{
+	float: left;
+	/* [disabled]margin-top: 2px; */
+	margin-right: .2em;
+	/* [disabled]margin-left: 2px; */
+	/* [disabled]margin-bottom: 2px; */
+	width:60px;
+	height:auto;
+	
+	
+	}
+	
+	#Lic-Cont
+	{
+	display: block;
+	position: absolute;
+	bottom: 23%;
+	right: 1%;
+	background-color: hsla(340,4%,15%,1.00);
+	padding: 1em;
+	letter-spacing: 0.1em;
+	}
+	
+	#lic-textcont
+	{
+	float: left;
+	border-color: hsla(358,29%,84%,1.00);
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	}
+	.txt-lic
+	{
+	font-size: .7em;
+	color: hsla(73,9%,80%,.70);	
+	}
+	
+	#Templos_logos
+	{
+	display:block;
+	margin-left:5px;
+	
+	}
+	#Templos_logos img
+	{
+	margin-right:.2em;
+	opacity:.6;}
+	
+	
+	
+	
+	
+	
+	
+}
+
+@media only screen and (min-width: 1500px) {
+	body {
+		width: 1500px;
+		margin: 0 auto;
+		display: block;	
+	}
+	#abajo_footer,
+	#menu1 {			
+		width: 1500px;
+		margin: 0 auto;
+	}
+	
+	
+		
+	#MenuMovil {
+				display:none;		
+	}
+	
+	#MenuDesktop {
+		display:inline;		
+	}
+	
+	#bod_nergo_stroke {
+	border: 2em solid #282526;
+	
+}
+
+/*types*/
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	font-size: 1.2em;
+	color: hsla(300,1%,14%,1.00);
+	padding-left: 1em;
+	padding-right:1em;
+}
+
+h2 {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	font-size: 1.8em;
+	color: hsla(0,0%,3%,1.00);
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+}
+
+a:link, a:visited {
+	cursor: auto;
+	color: hsla(0,0%,0%,1.00);
+}
+
+a:hover{
+	text-decoration: none;
+	color: #7D1816;
+	text-shadow: 1px 2px 3px hsla(0,0%,0%,0.35);
+}
+
+.Download {
+	padding-top: 3%;
+	padding-left:1em;
+	text-align: right;
+	font-size: 1em;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+	font-weight: 600;
+
+}
+	
+	.navbar.navbar-default.navbar-fixed-top .container-fluid #topFixedNavbar1 {
+	background-color: hsla(340,4%,15%,1);
+	text-align: center;
+	font-size: 1 em;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	font-color: #D9D58A;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	line-height: .4em;
+	font-weight: 500;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	
+	}
+
+#logo_top
+{
+	margin: 0em;
+	height: 70px;
+}
+
+#logo_20
+	{
+		height: 60px;
+		width:60px;
+		position:absolute;
+		left:8em;  	
+	}
+
+	.Caja_typo {
+	padding-left: 2em;
+	padding-right: 2em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	
+	
+}
+
+.Caja_typo:nth-child(even) 
+{
+    
+ 
+ border-bottom: none;
+	border-top: none;
+border-right: thin dotted #282526;
+	border-left: thin dotted #282526;
+
+}
+
+.izquierda_footer
+	{
+	
+	padding: auto;
+	
+		
+	}
+
+
+.Botonera_B a{
+	
+	font-size: 1em;
+	
+	}
+	
+	.Botonera_B a:hover {
+			
+	font-size: 1 em;
+	
+	
+	}
+	
+	.Footer p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "TheSans Regular", "Helvetica", "Arial", "sans-serif";
+	color: hsla(73,9%,80%,.70);
+	text-transform: uppercase;
+	font-size: 0.8em;
+	letter-spacing: 0.2em;
+	}
+	
+	
+	
+	/*hiders: EstadoUno y dos es esconder o mostrar dependiendo  del caso. none es esconder y block es mostrar  */
+	
+	.EstadoUno 
+	{
+	display:none;
+		
+	}
+	
+	.EstadoDos 
+	
+	{
+	display:none;
+	
+	}
+	.EstadoTres
+{
+display:block;		
+}
+
+
+	
+	#img_grap{
+	float: left;
+	/* [disabled]margin-top: 2px; */
+	margin-right: .2em;
+	/* [disabled]margin-left: 2px; */
+	/* [disabled]margin-bottom: 2px; */
+	
+	}
+	
+	#Lic-Cont
+	{
+	display: block;
+	position: absolute;
+	bottom: 23%;
+	right: 10%;
+	background-color: hsla(340,4%,15%,1.00);
+	padding: 1.3em;
+	letter-spacing: 0.1em;
+	}
+	#lic-textcont
+	{
+	float: left;
+	border-color: hsla(358,29%,84%,1.00);
+	border-bottom-style: solid;
+	border-bottom-width: thin;
+	}
+	.txt-lic
+	{
+	font-size: .7em;
+	color: hsla(73,9%,80%,.70);	
+	}
+	
+	#Templos_logos
+	{
+	display:block;
+	margin-left:5px;
+	
+	}
+	#Templos_logos img
+	{
+	margin-right:.2em;
+	opacity:.6;}
+	
+	
+
+
+
+}
+
+
+
